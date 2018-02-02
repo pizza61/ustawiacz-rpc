@@ -1,0 +1,23 @@
+{
+  "name": "ustawiacz",
+  "version": "0.4.0",
+  "description": "ustawia ci status rpc jaki chcesz",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "keywords": [
+    "ustawiacz",
+    "discord",
+    "rpc"
+  ],
+  "author": "pizza",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^3.0.0-beta.8",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10"
+  }
+}

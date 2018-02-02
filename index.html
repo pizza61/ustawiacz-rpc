@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Ustawiacz RPC</title>
+        <script>window.$ = window.jQuery = require('jquery');</script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+    <body>
+        <div class="porusz">
+            <div class="tekt">Ustawiacz Rich Presence</div>
+            <button class="btn btn-open" id="zamykajacy">Zamknij</button>
+            <button class="btn btn-help">Pomoc</button>
+            <button class="btn btn-info">O programie</button>
+        </div>
+        <div class="content">
+            <div class="lewy">
+                <label for="cli">Client ID:</label>
+                <input type="text" id="cli">
+
+                <label for="title">Tytuł:</label>
+                <input type="text" id="title">
+
+                <label for="opis">Opis:</label>
+                <input type="text" id="opis">
+
+                <input type="button" class="btn btn-submit" value="Aktywuj!">
+            </div>
+            <div class="prawy">
+                <button class="btn btn-rozwin">Rozwiń obrazki</button>
+                <div class="obrazki">
+                    <label for="duzy">Kod dużego obrazka:</label>
+                    <input type="text" style="width:100%" id="duzy">
+
+                    <label for="duzy-txt">Tekst dużego obrazka:</label>
+                    <input type="text" style="width:100%" id="duzy-txt">
+
+                    <label for="maly">Kod małego obrazka:</label>
+                    <input type="text" style="width:100%" id="maly">
+
+                    <label for="maly-txt">Tekst małego obrazka:</label>
+                    <input type="text" style="width:100%" id="maly-txt">
+                </div>
+            </div>
+        </div>
+            <script src="renderer.js"></script>
+    </body>
+</html>

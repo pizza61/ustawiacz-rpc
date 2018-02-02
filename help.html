@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Pomoc</title>
+        <script>window.$ = window.jQuery = require('jquery');</script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="ctn-help">
+            <b>Jak ustawić status Rich Presence przy użyciu tego programu?</b>
+            <p>Jest to bardzo proste!</p>
+            <p>Aby uzyskać Client ID, należy wejść na stronę <span class="link" onclick="require('electron').shell.openExternal('https://discordapp.com/developers/applications/me')">discordapp.com/developers</span>
+            , zalogować się jeżeli nie jesteś zalogowany a następnie kliknąć New App.</p>
+            <img src="https://i.imgur.com/2NMgVQE.png" width="100px">
+            <p>Zostaniesz przekierowany do formularza, gdzie musisz nadać swojmu "botowi" nazwę. Jest ona istotna, gdyż ona także będzie wyświetlana.</p>
+
+            <p>Po kliknięciu w "Create App" zostaniesz przekierowany do ustawień bota. Zjedź na sam dół i wybierz "Enable Rich Presence".
+                Opcje, które się pojawią, służą do ustawiania obrazków. Będzie to opisane w następnej części.</p>
+                <p>Zapisz zmiany i wróc na górę strony. Będzie tam Client ID, który możesz już skopiować i wkleić do programu.</p>
+                <img src="https://i.imgur.com/px6AzTC.png" width="100px">
+            </p>
+            <b>Jak ustawić obrazki?</b>
+            <p>W wersji 0.2 do programu dodano obsługę obrazków. Jak z nich skorzystać?</p>
+            <p>Na stronie stworzonej przez ciebie aplikacji, niemal przed samym przyciskiem "Save Changes" znajduje
+                się zakładka "Rich Presence Assets. Dzięki niej możesz wrzucić swój obrazek, wpisać jego kod w programie
+                i cieszyć się nim!"
+            </p>
+            <b>Uwaga!! Aby korzystać z małego obrazka, musisz mieć duży!</b>
+            <img src="https://i.imgur.com/deAMtB5.png" width="400px">
+            <p>Pod "Name" należy wpisać kod obrazka, który wymyślasz sam i wpisujesz potem w programie.
+                Niżej masz do wyboru dwa typy - small i large. Wiadomo - small to mały, a large to duży. Wybierz jaki chcesz
+                i zapamiętaj.
+            </p>
+            <p>Po lewej stronie będzie znajdował się niebieski okrąg lub kwadrat. Aby wybrać obrazek z dysku,
+                kliknij go.
+            </p>
+            <img src="https://i.imgur.com/pWq8zuk.png" width="400px">
+            <p>Kiedy wszystko będzie gotowe, kliknij "Upload Asset", a następnie "Save Changes".</p>
+            <p>Strona może trochę zamulić, ale kiedy zobaczysz, że obrazek został dodany, możesz już wpisać jego kod w
+                programie i korzystać!
+            </p>
+
+            
+        </div>
+    </body>
+    </html>
